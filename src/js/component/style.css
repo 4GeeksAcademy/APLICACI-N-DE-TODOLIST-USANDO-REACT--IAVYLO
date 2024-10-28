@@ -1,0 +1,38 @@
+.home {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-item:hover .delete-button {
+    display: inline;
+  }
+  
+  .delete-button {
+    border: none;
+    background: red;
+    color: white;
+    cursor: pointer;
+    display: none; /* Se muestra al hacer hover */
+  }

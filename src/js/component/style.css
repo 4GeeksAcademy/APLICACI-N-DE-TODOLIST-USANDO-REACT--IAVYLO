@@ -34,5 +34,5 @@
     background: red;
     color: white;
     cursor: pointer;
-    display: none; /* Se muestra al hacer hover */
+    display: none; 
   }

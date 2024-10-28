@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from './home.jsx'; // Asegúrate de la ruta correcta
+import Home from './home.jsx'; 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

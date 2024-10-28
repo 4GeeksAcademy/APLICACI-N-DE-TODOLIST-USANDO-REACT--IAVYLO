@@ -1,4 +1,4 @@
-import React, { useState } from "react"; // Mantén la importación de useState
+import React, { useState } from "react"; 
 
 const Home = () => {
   const [tasks, setTasks] = useState([]);
@@ -6,13 +6,13 @@ const Home = () => {
 
   const handleKeyPress = (event) => {
     if (event.key === 'Enter' && input.trim()) {
-      setTasks((prevTasks) => [...prevTasks, input]); // Usa función anterior para evitar problemas de estado
+      setTasks((prevTasks) => [...prevTasks, input]); 
       setInput('');
     }
   };
 
   const handleDelete = (index) => {
-    setTasks((prevTasks) => prevTasks.filter((_, i) => i !== index)); // Similar aquí
+    setTasks((prevTasks) => prevTasks.filter((_, i) => i !== index)); 
   };
 
   return (
